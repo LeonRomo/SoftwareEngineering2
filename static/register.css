@@ -1,0 +1,66 @@
+body{
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.main-holder{
+    width: 360px;
+    padding: 10% 0 0 ;
+    margin: auto;
+}
+
+.form-holder{
+    position: relative;
+    z-index: 1;
+    padding: 45px;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+
+
+.form-holder input{
+    font-family: "Roboto", sans-serif;
+    outline:#0E566C;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.form-holder button{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #1d68cd;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.form-holder button:hover, .form-holder button:active{
+    background: #43A047;
+}
+
+.register-form{
+    display: none;
+}
+
+.register-header{
+    text-align: center;
+
+}
+
+.login-header{
+    text-align: center;
+}

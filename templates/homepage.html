@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Techfundi Homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
+    <script src="{{url_for( 'static', filename='homepage.js')}}"></script>
+
+</head>
+<body>
+
+<div id="sidebar" class="side-bar">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="aboutUs.html">About</a>
+         <a href="#">Contacts</a>
+     </div>
+
+     <div id = "main">
+         <button class="openbtn" onclick="openNav()">☰ Menu</button>
+     </div>
+</body>
+</html>
